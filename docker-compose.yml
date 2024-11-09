@@ -1,0 +1,19 @@
+services:
+  # Development service
+  app:
+    build:
+      context: .
+      target: dev
+    ports:
+      - "5173:5173"  # Maps Vite's default port for development
+    volumes:
+      - .:/app       # Mounts the app directory for live updates
+      - /app/node_modules  # Ensures node_modules remain in the container
+
+  # Production service
+  app_prod:
+    build:
+      context: .
+      target: prod
+    ports:
+      - "80:80"  # Exposes the Nginx server on port 80

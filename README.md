@@ -1,2 +1,3 @@
-# ExQuizit
-Eftersom jag inte kan dela min quiz genom quizlet så gjorde jag denna.
+# Halloj
+
+Eftersom jag inte kunde dela min Quiz i quizlet så skapade jag denna.

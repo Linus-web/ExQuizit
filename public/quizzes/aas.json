@@ -1,0 +1,125 @@
+{
+    "quiz": {
+      "1": {
+        "statement": "Vad är huvudmålet med ansvarsfull alkoholservering?",
+        "Answer": "Att förebygga och minska alkoholrelaterat våld och skador i och kring serveringsställen."
+      },
+      "2": {
+        "statement": "Vilka är de fyra nyckelelementen i metoden för ansvarsfull alkoholservering?",
+        "Answer": "Utbildning i ansvarsfull servering, lokalt engagemang, tydliga policyer och effektiv tillsyn. Utbildning i ansvarsfull servering, lokalt engagemang, tydliga policyer och effektiv tillsyn.Utbildning i ansvarsfull servering, lokalt engagemang, tydliga policyer och effektiv tillsyn.Utbildning i ansvarsfull servering, lokalt engagemang, tydliga policyer och effektiv tillsyn.Utbildning i ansvarsfull servering, lokalt engagemang, tydliga policyer och effektiv tillsyn."
+      },
+      "3": {
+        "statement": "Vilken är den minsta åldern för att få serveras alkohol i Sverige?",
+        "Answer": "18 år."
+      },
+      "4": {
+        "statement": "Varför är det olagligt att servera alkohol till märkbart berusade gäster?",
+        "Answer": "Det ökar risken för våld och skador, och det strider mot lagen."
+      },
+      "5": {
+        "statement": "Vad är promillehalten där risken att dö i en trafikolycka ökar 100 gånger?",
+        "Answer": "1,0 promille."
+      },
+      "6": {
+        "statement": "Vilka är några av de fysiska effekterna vid 0,2 promille i blodet?",
+        "Answer": "Värmekänsla, avspänning och minskad självkritik."
+      },
+      "7": {
+        "statement": "Hur påverkar alkohol dopamin i hjärnan?",
+        "Answer": "Alkohol frisätter dopamin, vilket skapar en känsla av välbehag."
+      },
+      "8": {
+        "statement": "Vad kan hända vid en promillehalt på 1,5?",
+        "Answer": "Det blir svårt att hålla balansen och risken för känsloutbrott ökar."
+      },
+      "9": {
+        "statement": "Vilka är de vanligaste abstinenssymtomen vid alkoholberoende?",
+        "Answer": "Ångest, svettning, hjärtklappning och skakningar."
+      },
+      "10": {
+        "statement": "Vilken roll spelar dopamin i hjärnans belöningssystem?",
+        "Answer": "Det ger motivation och skapar lustupplevelser som kan leda till beroende."
+      },
+      "11": {
+        "statement": "Hur påverkar alkohol reaktionsförmågan vid hög konsumtion?",
+        "Answer": "Reaktionsförmågan försämras vilket ökar risken för olyckor."
+      },
+      "12": {
+        "statement": "Vilka risker är förknippade med att börja dricka alkohol tidigt i livet?",
+        "Answer": "Skador på hjärnans utveckling och ökad risk för alkoholrelaterade problem."
+      },
+      "13": {
+        "statement": "Vilken promillehalt kan leda till medvetslöshet?",
+        "Answer": "3,0 promille."
+      },
+      "14": {
+        "statement": "Vilka är några vanliga sjukdomar som kan orsakas av alkohol?",
+        "Answer": "Magkatarr, levercancer, hjärtsjukdomar och depression."
+      },
+      "15": {
+        "statement": "Vad är huvudsyftet med alkohollagen i Sverige?",
+        "Answer": "Att förebygga sociala och medicinska skador orsakade av alkohol."
+      },
+      "16": {
+        "statement": "Vilka typer av drycker måste serveringsställen erbjuda utöver alkohol?",
+        "Answer": "Alkoholfritt alternativ i en variation som matchar alkoholutbudet."
+      },
+      "17": {
+        "statement": "Vilka krav ställer alkohollagen på serveringstidens slut?",
+        "Answer": "Servering av alkohol ska sluta senast kl. 01.00, och alla gäster ska ha lämnat inom 30 minuter."
+      },
+      "18": {
+        "statement": "Vad innebär det att en gäst har ökad tolerans för alkohol?",
+        "Answer": "Att de behöver dricka mer för att uppnå samma grad av berusning."
+      },
+      "19": {
+        "statement": "Vilka är tecken på cannabisanvändning enligt utbildningsmaterialet?",
+        "Answer": "Röda ögon, stora pupiller, osäkra rörelser och långsammare reflexer."
+      },
+      "20": {
+        "statement": "Varför rekommenderas att be om legitimation för alla som ser ut att vara under 25 år?",
+        "Answer": "För att säkerställa att gästen är minst 18 år och därmed kan serveras alkohol."
+      },
+      "21": {
+        "statement": "Vilka två faktorer påverkar hur snabbt promillehalten stiger vid alkoholkonsumtion?",
+        "Answer": "Hur snabbt och hur mycket alkohol som konsumeras."
+      },
+      "22": {
+        "statement": "Vilken promillehalt kan orsaka dubbelseende och svårighet att gå?",
+        "Answer": "2,0 promille."
+      },
+      "23": {
+        "statement": "Hur kan serveringspersonal bidra till att minska risken för våld på serveringsstället?",
+        "Answer": "Genom att undvika att servera alkohol till märkbart berusade gäster."
+      },
+      "24": {
+        "statement": "Vad ska serveringspersonal göra om en gäst visar tydliga tecken på narkotikapåverkan?",
+        "Answer": "Avvisa gästen och kontakta polisen om nödvändigt."
+      },
+      "25": {
+        "statement": "Vilka tre nivåer av tillsyn ingår i kommunens kontroll av serveringsställen?",
+        "Answer": "Förebyggande, inre och yttre tillsyn."
+      },
+      "26": {
+        "statement": "Vilka är effekterna vid en promillehalt på 0,5 i blodet?",
+        "Answer": "Omdömet försämras, reflexerna blir långsammare, och hämningar minskar."
+      },
+      "27": {
+        "statement": "Vad innebär en 'policy' på ett serveringsställe enligt alkohollagen?",
+        "Answer": "En policy fastställer riktlinjer för ansvar och förhållningssätt för att uppnå en trygg miljö."
+      },
+      "28": {
+        "statement": "Vad innebär lagen om 'förbud mot att bjuda på alkohol'?",
+        "Answer": "Att serveringsställen inte får bjuda på alkohol som kompensation för problem."
+      },
+      "29": {
+        "statement": "Vad är syftet med att ha god belysning vid ingången på serveringsställen?",
+        "Answer": "Att hjälpa personal att upptäcka om någon är påverkad vid entrén."
+      },
+      "30": {
+        "statement": "Vad är de vanligaste effekterna av syntetiska cannabinoider som spice?",
+        "Answer": "Leder till hallucinationer, förhöjd hjärtfrekvens och risk för panikattacker."
+      }
+    }
+  }
+  
