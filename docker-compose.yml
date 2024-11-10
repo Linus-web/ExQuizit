@@ -5,15 +5,29 @@ services:
       context: .
       target: dev
     ports:
-      - "5173:5173"  # Maps Vite's default port for development
+      - "5173:5173"
     volumes:
-      - .:/app       # Mounts the app directory for live updates
-      - /app/node_modules  # Ensures node_modules remain in the container
+      - .:/app
+      - /app/node_modules
 
-  # Production service
+  # Production Nginx with SSL
   app_prod:
     build:
       context: .
       target: prod
     ports:
-      - "80:80"  # Exposes the Nginx server on port 80
+      - "80:80"
+      - "443:443"  # Expose HTTPS
+    volumes:
+      - ./certbot-etc:/etc/letsencrypt                # Volume for SSL certificates
+      - ./certbot-www:/var/www/certbot                # Volume for Certbot challenge files
+    depends_on:
+      - certbot
+
+  # Certbot Service for SSL Certificates
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./certbot-etc:/etc/letsencrypt                # Persist SSL certificates
+      - ./certbot-www:/var/www/certbot                # Webroot directory for challenge files
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew --webroot -w /var/www/certbot --quiet --post-hook \"nginx -s reload\"; sleep 12h; done;'"
