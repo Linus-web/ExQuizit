@@ -18,11 +18,12 @@ services:
     ports:
       - "80:80"
       - "443:443"  # Expose HTTPS
+    restart: always
     volumes:
-      - ./certbot-etc:/etc/letsencrypt                # Volume for SSL certificates
-      - ./certbot-www:/var/www/certbot                # Volume for Certbot challenge files
+      - ./nginx/conf/:/etc/nginx/conf.d/:ro
+      - ./certbot/www/:/var/www/certbot/:ro              
   certbot:
-    image: certbot/certbot
+    image: certbot/certbot:latest
     volumes:
-      - ./certbot-etc:/etc/letsencrypt                # Persist SSL certificates
-      - ./certbot-www:/var/www/certbot                # Webroot directory for challenge files
+      - ./certbot/www/:/var/www/certbot/:rw
+      - ./certbot/conf/:/etc/letsencrypt/:rw                
