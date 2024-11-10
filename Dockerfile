@@ -22,8 +22,6 @@ FROM nginx:alpine as prod
 
 COPY --from=build /app/dist /usr/share/nginx/html
 COPY /nginx/conf/default.conf /etc/nginx/conf.d/default.conf
-# Copy SSL certificates to the expected location
-COPY certbot/conf/live/quizit.se /etc/nginx/ssl/live/quizit.se
 
 EXPOSE 80
 EXPOSE 443 
