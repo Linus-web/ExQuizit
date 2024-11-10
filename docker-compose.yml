@@ -21,13 +21,8 @@ services:
     volumes:
       - ./certbot-etc:/etc/letsencrypt                # Volume for SSL certificates
       - ./certbot-www:/var/www/certbot                # Volume for Certbot challenge files
-    depends_on:
-      - certbot
-
-  # Certbot Service for SSL Certificates
   certbot:
     image: certbot/certbot
     volumes:
       - ./certbot-etc:/etc/letsencrypt                # Persist SSL certificates
       - ./certbot-www:/var/www/certbot                # Webroot directory for challenge files
-    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew --webroot -w /var/www/certbot --quiet --post-hook \"nginx -s reload\"; sleep 12h; done;'"
