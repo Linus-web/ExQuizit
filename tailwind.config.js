@@ -10,20 +10,20 @@ export default {
     extend: {
       colors: {
         primary: {
-          light: 'hsl(0, 50%, 90%)', // Light mode primary color
-          dark: 'hsl(0, 50%, 10%)',  // Dark mode primary color
+          light: 'hsl(236, 50%, 90%)', // Light mode primary color
+          dark: 'hsl(236, 50%, 10%)',  // Dark mode primary color
         },
         secondary: {
-          light: 'hsl(0, 50%, 95%)', // Light mode secondary color
-          dark: 'hsl(0, 50%, 15%)',  // Dark mode secondary color
+          light: 'hsl(236, 50%, 95%)', // Light mode secondary color
+          dark: 'hsl(236, 50%, 15%)',  // Dark mode secondary color
         },
         tertiary: {
-          light: 'hsl(60, 80%, 20%)', // Light mode accent color
-          dark: 'hsl(60, 80%, 80%)',
+          light: 'hsl(176, 80%, 20%)', // Light mode accent color
+          dark: 'hsl(176, 80%, 80%)',
         },
         accent: {
-          light: 'hsl(300, 80%, 20%)', // Light mode accent color
-          dark: 'hsl(300, 80%, 80%)',  // Dark mode accent color
+          light: 'hsl(296, 80%, 20%)', // Light mode accent color
+          dark: 'hsl(296, 80%, 80%)',  // Dark mode accent color
         },
       },
     },
