@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Router>
-      <div className=" font font-mono min-h-screen md:px-56 bg-primary-light dark:bg-primary-dark text-primary-dark dark:text-primary-light">
+      <div className=" font font-mono min-h-screen sm:px-28 md:px-36 bg-primary-light dark:bg-primary-dark text-primary-dark dark:text-primary-light">
         <header className="p-4 flex justify-between items-center bg-primary dark:bg-darkPrimary">
           <h1 className="text-2xl font-bold">Quiz App</h1>
           <button

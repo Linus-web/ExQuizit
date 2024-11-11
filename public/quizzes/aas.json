@@ -44,17 +44,9 @@
         "statement": "Hur påverkar alkohol reaktionsförmågan vid hög konsumtion?",
         "Answer": "Reaktionsförmågan försämras vilket ökar risken för olyckor."
       },
-      "12": {
-        "statement": "Vilka risker är förknippade med att börja dricka alkohol tidigt i livet?",
-        "Answer": "Skador på hjärnans utveckling och ökad risk för alkoholrelaterade problem."
-      },
       "13": {
         "statement": "Vilken promillehalt kan leda till medvetslöshet?",
         "Answer": "3,0 promille."
-      },
-      "14": {
-        "statement": "Vilka är några vanliga sjukdomar som kan orsakas av alkohol?",
-        "Answer": "Magkatarr, levercancer, hjärtsjukdomar och depression."
       },
       "15": {
         "statement": "Vad är huvudsyftet med alkohollagen i Sverige?",
@@ -63,10 +55,6 @@
       "16": {
         "statement": "Vilka typer av drycker måste serveringsställen erbjuda utöver alkohol?",
         "Answer": "Alkoholfritt alternativ i en variation som matchar alkoholutbudet."
-      },
-      "17": {
-        "statement": "Vilka krav ställer alkohollagen på serveringstidens slut?",
-        "Answer": "Servering av alkohol ska sluta senast kl. 01.00, och alla gäster ska ha lämnat inom 30 minuter."
       },
       "18": {
         "statement": "Vad innebär det att en gäst har ökad tolerans för alkohol?",
@@ -96,17 +84,9 @@
         "statement": "Vad ska serveringspersonal göra om en gäst visar tydliga tecken på narkotikapåverkan?",
         "Answer": "Avvisa gästen och kontakta polisen om nödvändigt."
       },
-      "25": {
-        "statement": "Vilka tre nivåer av tillsyn ingår i kommunens kontroll av serveringsställen?",
-        "Answer": "Förebyggande, inre och yttre tillsyn."
-      },
       "26": {
         "statement": "Vilka är effekterna vid en promillehalt på 0,5 i blodet?",
         "Answer": "Omdömet försämras, reflexerna blir långsammare, och hämningar minskar."
-      },
-      "27": {
-        "statement": "Vad innebär en 'policy' på ett serveringsställe enligt alkohollagen?",
-        "Answer": "En policy fastställer riktlinjer för ansvar och förhållningssätt för att uppnå en trygg miljö."
       },
       "28": {
         "statement": "Vad innebär lagen om 'förbud mot att bjuda på alkohol'?",
@@ -119,7 +99,103 @@
       "30": {
         "statement": "Vad är de vanligaste effekterna av syntetiska cannabinoider som spice?",
         "Answer": "Leder till hallucinationer, förhöjd hjärtfrekvens och risk för panikattacker."
-      }
+      },
+      "31":{
+            "statement": "Hur gammal måste man vara för att kunna söka serveringstillstånd?"  ,
+            "Answer": "minst 20 år gammal"
+        },
+        "32":{
+            "statement": "Hur mycket av annan dryck ger lika mycket alkohol som 8cl starksprit (2 standardglas)"  ,
+            "Answer":  "100cl folköl (2 standardglas)"
+        },
+        "33":{
+            "statement": "Hur gammal måste man vara för att kunna servera alkoholhaltig dryck?"  ,
+            "Answer": "Finns ingen gräns för hur ung man måste vara." 
+        },
+        "34":{
+            "statement": "Vad kan hända med dig som råkar servera alkohol till en person under 18år"  ,
+            "Answer": "Böter eller upp till 6 månaders fängelse" 
+        },
+        "35":{
+            "statement": "Vad kan hända med serveringsansvarig om du serverar alkohol till en person under 18år?"  ,
+            "Answer": "Kan tappa deras tillstånd" 
+        },
+        "36":{
+            "statement": "Får gäster som är under 18 år befinnas på serveringsstället?"  ,
+            "Answer": "Ja sålänge de inte finns en överenskommelse om åldersgräns." 
+        },
+        "37":{
+            "statement": "Hur många gånger mer är risken att dö i en bilolycka vid 1.0 och 2.0 promille?"  ,
+            "Answer": "100x och 800x" 
+        },
+        "38":{
+            "statement": "Varför ska ungdomar under 18 år inte dricka alkohol?"  ,
+            "Answer": "Ökar risken för alkoholrelaterade skador, speciellt för att hjärnan inte utvecklats klart, De har svårare att avgöra om de har druckit för mycket och blir ofta för fulla. Finns också många händelser av oskyddade vuxenlekar när ungdommar är för fulla." 
+        },
+        "39":{
+            "statement": "Vad kan påverka din promillehalt under en fylla?"  ,
+            "Answer": "Hur snabbt du dricker. Vad du dricker, om du äter samtidigt och hur din kropp är sammansatt (vikt och kön)." 
+        },
+        "40":{
+            "statement": "Hur stora är standard glas?"  ,
+            "Answer": "4cl starksprit, 33cl starköl, 15cl vin, 8cl starkvin, 50cl folköl" 
+        },
+        "41":{
+            "statement": "Vanliga sjukdommar och symtom av alkohol?"  ,
+            "Answer": "Cancer, mage och tarm, hjärnskador, lättare till infektion, Levern, Hjärt och kärlsjukdommar och psykiska störningar." 
+        },
+        "42":{
+            "statement": "Tidigast och senast man får servera alkohol om man inte har andra överenskommelser?"  ,
+            "Answer": "11:00 och 01:00, Alla gäster måste vara ute 30 min efter alkohol slutat serverats." 
+        },
+        "43":{
+            "statement": "Hur måste priser på alkohol sättas?"  ,
+            "Answer": "Priset får inte vara lägre än inköpspris + 25%. Den alkoholfria/mindra alkohol varianten måste kosta mindre än den mer alkoholhaltiga." 
+        },
+        "44":{
+            "statement": "Vad menas med animering?"  ,
+            "Answer": "Animering är när man försöker uppmuntra personer att köpa mer alkohol ex. 2 för 1." 
+        },
+        "45":{
+            "statement": "Hur många gånger mer är risken att dö i en bilolycka vid 1.0 och 2.0 promille?"  ,
+            "Answer": "100x och 800x" 
+        },
+        "46":{
+            "statement": "Vad gör du om en märkbart påverkad kund försöker beställa mat och alkohol?"  ,
+            "Answer": "Du ger den inte bara dens mat utan du avvisar den från området. Man får inte vara märkbart full" 
+        },
+        "47":{
+            "statement": "Vad gör du om en märkbart påverkad kund försöker beställa mat?"  ,
+            "Answer": "Du ger den inte bara dens mat utan du avvisar den från området. Man får inte vara märkbart full" 
+        },
+        "48":{
+            "statement": "Högsta alkoholhalt för att en dryck ska kallas lättdryck?"  ,
+            "Answer": "2.25 volym%" 
+        },
+        "49":{
+            "statement": "Ska gäst alltid frågas om dom vill ha kvitto?"  ,
+            "Answer": "Ja" 
+        },
+        "50":{
+            "statement": "Får man ta med egen alkohol in i verksamhet eller ta ut köpt alkohol ur verksamheten?"  ,
+            "Answer": "Nej och Nej" 
+        },
+        "51":{
+            "statement": "får du lov att ge ut alkohol som kompensation till kund?"  ,
+            "Answer": "Nej men mat eller fika går bra!" 
+        },
+        "52":{
+            "statement": "Fler exempel på hur serveringstillstånd kan dras tillbaks"  ,
+            "Answer": "När kraven ovan inte följs.Tillståndet inte längre nyttjas. När de förekommer brottsligheter på område medans man vet om de. Brister inte åtgärdats trots en eller flera varningar. Alkohollagen brutits." 
+        },
+        "53":{
+            "statement": "Vad är vanliga tecken på att någon är narkotika påverkad?"  ,
+            "Answer": "Cannabis: Röda ögon, Stora pupiller, och intensiv längtan av sötsaker. Sämre reflexer och osäkra rörelser.  Kokain, Amfetamin etc: 'Speedad' Ecstasy: Stora pulserande pupiller, rodnad, svettande, ticks (kramper i händer, hals, käkar)" 
+        },
+        "54":{
+            "statement": "Hur kollar man om legitimation är giltligt?"  ,
+            "Answer": "Godkänt? (SIS-märkt, Svenskt körkort, Svenskt EU-Pas med vinröd perm) Giltligt? (Giltlighetstiden) Förfalskat? (känns de/ser de ut som falskt) Rätt person (är de samma person på bilden)" 
+        }
     }
   }
   
